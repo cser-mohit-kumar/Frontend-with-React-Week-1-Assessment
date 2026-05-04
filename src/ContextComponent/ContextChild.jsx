@@ -29,6 +29,9 @@ let data = useContext(contextAPI)
   }}>Get Products</button>
 {/* <Consumer>{(value)=>{console.log(value)}}
 </Consumer> */}
+  <button onClick={()=>putProduct("aUfwEV-WWfM",{name:"updated",friend:"updated"})}>Put Data</button>
+      <button onClick={()=>deleteProducts("14OaAfy_yUg")}>Delete</button>
+
 </div>
   )
 }

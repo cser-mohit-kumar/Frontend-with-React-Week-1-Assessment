@@ -20,7 +20,8 @@ const ContextComponent = (props) => {
     // console.log(contextAPI);
     let {Provider} = contextAPI;
   return (
-    <div>
+    <div className='context-wrapper'>
+        <h2>Context API Demo</h2>
         <Provider value={{name:"JECRC", state,updateState}}>
         {props.children}
         </Provider>

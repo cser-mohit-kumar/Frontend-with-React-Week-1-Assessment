@@ -3,7 +3,7 @@ import ContextChild from './ContextChild'
 
 const ContextParent = () => {
   return (
-    <div>
+    <div className='context-parent-card'>
         <ContextChild/>
     </div>
   )

@@ -5,7 +5,7 @@ import ContextParent from './ContextComponent/ContextParent'
 
 const App = () => {
   return (
-    <div>
+    <div className='app-wrapper'>
 
 {/* <GrandParent/> */}
 <ContextComponent>

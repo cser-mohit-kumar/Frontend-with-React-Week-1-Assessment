@@ -3,7 +3,7 @@ import CHild from './CHild';
 
 const Parent = (props) => {
   return (
-    <div>
+    <div className='parent-card'>
         <h3>The Surname of the Parent is {props.value.surname}</h3>
         <CHild value={props} />
     </div>

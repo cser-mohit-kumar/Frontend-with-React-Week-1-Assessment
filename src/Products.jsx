@@ -11,7 +11,7 @@ const Products = () => {
         })()
     },[])
   return (
-    <div>
+    <div className='products-container'>
       {products.map(v=>{
         return <Fragment key={v.id}>
           <h2>{v.name}</h2>
